@@ -1,13 +1,14 @@
-package com.example.tuto_keycloack.customers;
+package com.example.tuto_keycloack.Book;
+
 
 import lombok.Data;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Customer")
+@Table(name = "Book")
 @Data
-public class CustomersModel {
+public class BookModel {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;

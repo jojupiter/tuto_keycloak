@@ -10,6 +10,7 @@ import javax.annotation.security.RolesAllowed;
 
 @RestController
 public class CustomersController {
+    /*
     @GetMapping("/customers/hello")
     public ResponseEntity<String> helloPublic() {
         return ResponseEntity.ok("Hello public customers");
@@ -33,4 +34,6 @@ public class CustomersController {
     public ResponseEntity<String> helloModerator() {
         return ResponseEntity.ok("Hello dear moderator");
     }
+
+     */
 }
